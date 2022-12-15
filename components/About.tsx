@@ -40,7 +40,7 @@ export default function About({}: Props) {
           I have made projects like Covid vaccine tracker based on Hyperledger Fabric, also have worked on Escrow System with multi-chain support. I have worked on the Auction platform on Solana. 
           Built Rentable NFTs on Optimism and watch to earn platform on Solana.{" "}
           <br />
-          Currently I am building Decentralised Drive Storage.
+          Currently I am building Decentralized Drive Storage.
         </p>
       </div>
     </motion.div>

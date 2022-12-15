@@ -19,14 +19,14 @@ export default function ({}: Props) {
         Hover on a skill for proficiency.
       </h3>
       <div className="grid grid-cols-4 gap-5 " >
-        <Skill directionLeft={true} source="/cpp.png" per="90%"/>
-        <Skill directionLeft={true} source="/py.png" per="70%"/>
-        <Skill directionLeft={true} source="/ts.png" per="80%"/>
-        <Skill directionLeft={true} source="/js.png" per="80%"/>
-        <Skill directionLeft={false} source="/react.png" per="80%"/>
-        <Skill directionLeft={false} source="/next.png" per="60%"/>
-        <Skill directionLeft={false} source="/node.png" per="35%"/>
-        <Skill directionLeft={false} source="/github2.png" per="100%"/>
+        <Skill directionLeft={true} source="/solidity.png" />
+        <Skill directionLeft={true} source="/rust.png" />
+        <Skill directionLeft={true} source="/ts.png" />
+        <Skill directionLeft={true} source="/js.png" />
+        <Skill directionLeft={false} source="/react.png" />
+        <Skill directionLeft={false} source="/next.png" />
+        <Skill directionLeft={false} source="/node.png" />
+        <Skill directionLeft={false} source="/github2.png" />
       </div>
     </motion.div>
   );
