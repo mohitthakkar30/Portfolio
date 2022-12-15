@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <div className="bg-gradient-to-r from-teal-200 to-lime-200 text-black h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-black-400/20 scrollbar-thumb-[#7df9ff]/80">
       <Head>
-        <title>Priyanshi Raval</title>
+        <title>Mohit Thakkar</title>
       </Head>
 
       <Header />
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
 
       <Link href="#hero">
         <footer className="sticky bottom-0 w-full flex items-center justify-center">
-          <img src="/profile.jpeg"
+          <img src="/profile.jpg"
           className="h-10 w-10 rounded-full grayscale hover:filter-none cursor-pointer"/>
         </footer>
       </Link>

@@ -31,16 +31,16 @@ export default function About({}: Props) {
       />
       <div className="space-y-5 px-0 md:px-10 md:space-y-10 max-w-screen-md">
         <h4 className="md:text-4xl  text-2xl font-semibold ">
-          Here's a <span className="md:text-6xl text-2xl">little</span>{" "}
+          Here is a <span className="md:text-6xl text-2xl">little</span>{" "}
           Introduction:
         </h4>
         <p className="text-sm md:text-base">
-          I am Priyasnshi Raval, and I am a Fronted Developer and here are some things I
-          have done so far.... <br />
-          I started learning about coding in my first year of college and then I
-          got all into it once I discovered Development and Web3 .{" "}
+          I am Mohit Thakkar 👋, I am a Full-Stack Blockchain Developer 💻. I am Chainlink Community Advocate and member of Developer Dao❤️ and here are some projects which I
+          have done so far... <br />
+          I have made projects like Covid vaccine tracker based on Hyperledger Fabric, also have worked on Escrow System with multi-chain support. I have worked on the Auction platform on Solana. 
+          Built Rentable NFTs on Optimism and watch to earn platform on Solana.{" "}
           <br />
-          Currently I am building projects for learning web3.
+          Currently I am building Decentralised Drive Storage.
         </p>
       </div>
     </motion.div>
