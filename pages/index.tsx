@@ -44,7 +44,7 @@ const Home: NextPage = () => {
 
       <Link href="#hero">
         <footer className="sticky bottom-0 w-full flex items-center justify-center">
-          <img src="/profile.jpg"
+          <img src="/profile.jpeg"
           className="h-10 w-10 rounded-full grayscale hover:filter-none cursor-pointer"/>
         </footer>
       </Link>
