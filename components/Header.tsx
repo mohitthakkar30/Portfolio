@@ -26,17 +26,17 @@ export default function Header({}: Props) {
         <SocialIcon
           fgColor="black"
           bgColor="transparent"
-          url="https://www.linkedin.com/in/priyanshi-raval-8b1609228/"
+          url="https://www.linkedin.com/in/mohit-thakkar-3008/"
         ></SocialIcon>
         <SocialIcon
           fgColor="black"
           bgColor="transparent"
-          url="https://twitter.com/PriyanshiRaval1"
+          url="https://twitter.com/mohit_thakkar_"
         ></SocialIcon>
         <SocialIcon
           fgColor="black"
           bgColor="transparent"
-          url="https://github.com/priyaraval12"
+          url="https://github.com/mohitthakkar30"
         ></SocialIcon>
       </motion.div>
 
@@ -60,7 +60,7 @@ export default function Header({}: Props) {
           network="email"
           fgColor="black"
           bgColor="transparent"
-          url="mailto:priyanshiraval26@gmail.com"
+          url="mailto:thakkarmohit90@gmail.com"
         />
         <p className="hidden md:inline-flex text-sm text-black-400">Let's Connect</p>
       </motion.div>
