@@ -35,7 +35,7 @@ export default function About({}: Props) {
           Introduction:
         </h4>
         <p className="text-sm md:text-base">
-          I am Mohit Thakkar 👋, I am a Full-Stack Blockchain Developer 💻. I am Chainlink Community Advocate and member of Developer Dao❤️ and here are some projects which I
+          I am Mohit Thakkar 👋, I am a Full-Stack Blockchain Developer 💻. I am Chainlink Community Advocate, contributor at SuperteamDAO❤️ and member of Developer Dao❤️ and here are some projects which I
           have done so far... <br />
           I have made projects like Covid vaccine tracker based on Hyperledger Fabric, also have worked on Escrow System with multi-chain support. I have worked on the Auction platform on Solana. 
           Built Rentable NFTs on Optimism and watch to earn platform on Solana.{" "}
