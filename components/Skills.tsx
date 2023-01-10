@@ -12,12 +12,12 @@ export default function ({}: Props) {
       transition={{ duration: 1.5 }}
       className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center items-center mx-auto xl:space-y-0 overflow-hidden"
     >
-      <h3 className="absolute uppercase top-24 xl:top-12 tracking-[20px] text-black-500 text-2xl">
+      <h2 className="absolute uppercase top-24 xl:top-12 tracking-[20px] text-black-500 text-2xl">
         Skills
-      </h3>
-      <h3 className="absolute uppercase top-36 xl:top-24 tracking-[3px] text-black-500 text-sm">
+      </h2>
+      {/* <h3 className="absolute uppercase top-36 xl:top-24 tracking-[3px] text-black-500 text-sm">
         Hover on a skill for proficiency.
-      </h3>
+      </h3> */}
       <div className="grid grid-cols-4 gap-5 " >
         <Skill directionLeft={true} source="/solidity.png" />
         <Skill directionLeft={true} source="/rust.png" />
