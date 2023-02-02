@@ -6,6 +6,7 @@ import Expcard3 from "../components/Expcard3"
 import Expcard4 from "../components/Expcard4"
 import Expcard5 from "../components/Expcard5"
 import Expcard6 from "../components/Expcard6"
+import Expcard7 from "../components/Expcard7"
 
 type Props = {};
 
@@ -27,6 +28,7 @@ export default function Experience({}: Props) {
         <Expcard4/>
         <Expcard5/>
         <Expcard6/>
+        <Expcard7/>
       </div>
     </motion.div>
   );

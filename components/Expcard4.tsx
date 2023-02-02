@@ -37,6 +37,7 @@ export default function ({}: Props) {
         <p className="uppercase text-black-300">Oct 2022</p>
         <ul className="list-disc space-y-1  ml-5  text-m">
           <li>This project is about Proof of Collaboration on chain.</li>
+          <li>This project was the winner project at Amritathon.</li>
         </ul>
       </div>
     </article>

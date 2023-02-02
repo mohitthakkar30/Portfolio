@@ -25,8 +25,8 @@ export default function ({}: Props) {
         // src="/ethindia.png"
       />
       <div className="px-0 md:px-10">
-        <h4 className="text-4xl font-light">SheBuilds</h4>
-        <p className="text-2xl font-bold mt-1">Open Bazaar</p>
+        <h4 className="text-4xl font-light">LNM Hacks</h4>
+        <p className="text-2xl font-bold mt-1">UrbanClapXHuddle</p>
         <div className="flex space-x-2 my-2">
           <img src="/react.png" className="h-10 w-10 rounded-full bg-white" />
           <img src="/next.png" className="h-10 w-10 bg-white rounded-full " />
@@ -34,13 +34,11 @@ export default function ({}: Props) {
           <img src="/solidity.png" className="h-10 w-10 rounded-full bg-white" />
           <img src="/etherjs.png" className="h-10 w-10 rounded-full bg-white" />
         </div>
-        <p className="uppercase text-black-300">Jan 2022</p>
+        <p className="uppercase text-black-300">Jan 2023</p>
         <ul className="list-disc space-y-1  ml-5  text-m">
-          <li>OpenBazaar offers a decentralized alternative to traditional 
-            online marketplaces, allowing users to interact directly with
-            each other and retain control over their own data and transactions.</li>
+          <li>This project is about web3 version on Urban Clap</li>
           <li>
-            I have done the smart contract and integration of frontend with smart contract.        
+            I have done the smart contract and integration of frontend.        
           </li>
         </ul>
       </div>
