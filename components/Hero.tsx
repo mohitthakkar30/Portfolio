@@ -9,7 +9,7 @@ export default function Hero({}: Props) {
     words: [
       "Gm, My name is Mohit Thakkar",
       "I am a Full-Stack Blockchain Developer",
-      "I'm Chainlink Community Advocate",
+      "I'm Hyperlane Community Advocate",
       "I'm member of Developer DAO",
 
     ],
