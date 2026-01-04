@@ -1,0 +1,65 @@
+import { Experience } from '../types';
+
+export const experiences: Experience[] = [
+  {
+    id: 'timeswap',
+    company: 'Timeswap Labs',
+    role: 'Developer Relations Engineer',
+    duration: 'July 2024 – Nov 2025',
+    startDate: '2024-07',
+    endDate: '2025-11',
+    location: 'Remote',
+    description: [
+      'Managed biweekly reward distribution process 15+ times, ensuring timely and accurate rewards to community members and contributors',
+      'Implemented backend systems for asset whitelisting (20+ assets) and new chain integrations (3 chains), improving platform flexibility and user options',
+      'Contribute to the development of API improvements and SDKs, facilitating easier integration',
+      'Provide technical support, help users with their tickets, resolve those issues or forward them to the tech team for specialized assistance',
+    ],
+    technologies: ['TypeScript', 'React', 'Node.js', 'Blockchain APIs'],
+  },
+  {
+    id: 'dotnames',
+    company: 'Dotnames Domains',
+    role: 'DevRel and Integration Engineer',
+    duration: 'Nov 2023 - July 2024',
+    startDate: '2023-11',
+    endDate: '2024-07',
+    location: 'Remote',
+    description: [
+      'Developed and deployed a domain name resolver SDK and APIs for Dot Products, successfully facilitating integrations with 25+ partners',
+      'Collaborated cross-functionally with marketing (team of 4) and technical teams (team of 5) to ensure seamless partner onboarding and integration processes',
+      'Created comprehensive developer documentation for SDK and API integration, enhancing partner adoption and reducing implementation time',
+    ],
+    technologies: ['TypeScript', 'SDK Development', 'API Design', 'Documentation'],
+  },
+  {
+    id: 'nextloop',
+    company: 'Nextloop Technologies',
+    role: 'Blockchain Developer',
+    duration: 'Sept 2022 - Aug 2023',
+    startDate: '2022-09',
+    endDate: '2023-08',
+    location: 'Remote',
+    description: [
+      'Worked on DeFi projects, responsible for smart contract development and front-end integration',
+      'Assisted in the development of comprehensive documentation and provided technical guidance to team members',
+      'Implemented secure and gas-efficient smart contracts',
+    ],
+    technologies: ['Solidity', 'ethers.js', 'React', 'Web3.js'],
+  },
+  {
+    id: 'globalvox',
+    company: 'GlobalVox',
+    role: 'Blockchain Developer',
+    duration: 'Jan 2022 - Aug 2022',
+    startDate: '2022-01',
+    endDate: '2022-08',
+    location: 'Remote',
+    description: [
+      'Collaborated closely with the backend team to integrate the front-end components seamlessly',
+      'Conducted thorough testing and debugging to ensure the reliability and accuracy of the Escrow system',
+      'Developed blockchain-based escrow solutions',
+    ],
+    technologies: ['Solidity', 'React', 'Node.js', 'Smart Contracts'],
+  },
+];
