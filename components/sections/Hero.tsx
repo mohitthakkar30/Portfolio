@@ -62,15 +62,21 @@ export function Hero() {
               Contact Me
             </Button>
           </motion.div>
-        </motion.div>
 
-        {/* Scroll Indicator */}
-        <motion.div
-          className="absolute bottom-12 left-1/2 transform -translate-x-1/2"
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-        >
-          <FiArrowDown size={32} className="text-primary" />
+          {/* Scroll Indicator */}
+          <motion.div
+            className="mt-12 flex justify-center"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.8 }}
+          >
+            <motion.div
+              animate={{ y: [0, 10, 0] }}
+              transition={{ duration: 2, repeat: Infinity }}
+            >
+              <FiArrowDown size={40} className="text-primary" />
+            </motion.div>
+          </motion.div>
         </motion.div>
       </div>
     </section>

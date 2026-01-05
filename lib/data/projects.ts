@@ -16,8 +16,8 @@ export const projects: Project[] = [
       'Transparent competition mechanics',
     ],
     featured: true,
-    githubUrl: 'https://github.com/mohitthakkar30',
-    liveUrl: '#',
+    githubUrl: 'https://github.com/mohitthakkar30/degen-trade',
+    liveUrl: 'https://degen-trade.vercel.app/',
   },
   {
     id: 'ocean-pot',
@@ -35,8 +35,8 @@ export const projects: Project[] = [
       'Gas optimization techniques',
     ],
     featured: true,
-    githubUrl: 'https://github.com/mohitthakkar30',
-    liveUrl: '#',
+    githubUrl: 'https://github.com/mohitthakkar30/OceanPot',
+    liveUrl: 'https://eth-bangkok-one.vercel.app/',
   },
   {
     id: 'ragtag',
@@ -53,7 +53,7 @@ export const projects: Project[] = [
       'Decentralized product ownership',
     ],
     featured: true,
-    githubUrl: 'https://github.com/mohitthakkar30',
+    githubUrl: 'https://github.com/mohitthakkar30/ragtag',
     liveUrl: '#',
   },
   {
@@ -71,8 +71,8 @@ export const projects: Project[] = [
       'Immutable collaboration records',
     ],
     featured: true,
-    githubUrl: 'https://github.com/mohitthakkar30',
-    liveUrl: '#',
+    githubUrl: 'https://github.com/mohitthakkar30/Collabs-on-chain',
+    liveUrl: 'https://collabs-on-chain-peach.vercel.app/',
   },
   {
     id: 'blocktube',
@@ -89,8 +89,8 @@ export const projects: Project[] = [
       'Built at Horizon 2022',
     ],
     featured: false,
-    githubUrl: 'https://github.com/mohitthakkar30',
-    liveUrl: '#',
+    githubUrl: 'https://github.com/mohitthakkar30/BlockTube',
+    liveUrl: 'http://block-tube.vercel.app/',
   },
   {
     id: 'open-bazaar',
@@ -107,8 +107,8 @@ export const projects: Project[] = [
       'Decentralized product listings',
     ],
     featured: false,
-    githubUrl: 'https://github.com/mohitthakkar30',
-    liveUrl: '#',
+    githubUrl: 'https://github.com/mohitthakkar30/OpenBazaar',
+    liveUrl: 'https://open-bazaar.vercel.app/',
   },
   {
     id: 'escrow-system',
@@ -143,8 +143,8 @@ export const projects: Project[] = [
       'Provider rating system on-chain',
     ],
     featured: false,
-    githubUrl: 'https://github.com/mohitthakkar30',
-    liveUrl: '#',
+    githubUrl: 'https://github.com/mohitthakkar30/UrbanClapXHuddle-Frontend',
+    liveUrl: 'http://urbanclap-huddle-b94ac7.spheron.app/',
   },
   {
     id: 'covid-vaccine-tracker',
@@ -161,7 +161,7 @@ export const projects: Project[] = [
       'Privacy-preserving verification',
     ],
     featured: false,
-    githubUrl: 'https://github.com/mohitthakkar30',
+    githubUrl: 'https://github.com/mohitthakkar30/covidvaccinetracker',
     liveUrl: '#',
   },
 ];

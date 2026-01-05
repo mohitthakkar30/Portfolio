@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { FiArrowRight } from 'react-icons/fi';
 import { Experience } from '@/lib/types';
 import { Badge } from './Badge';
 
@@ -29,10 +30,16 @@ export function TimelineNode({ experience, index, isLeft }: TimelineNodeProps) {
           <p className="text-primary font-semibold mb-2">{experience.company}</p>
           <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">{experience.duration}</p>
 
-          <ul className={`space-y-2 mb-4 ${isLeft ? 'text-right' : 'text-left'}`}>
+          <ul className="space-y-3 mb-4 text-left">
             {experience.description.map((item, i) => (
-              <li key={i} className="text-gray-700 dark:text-gray-300 text-sm">
-                {item}
+              <li key={i} className="flex gap-3 items-start">
+                <FiArrowRight
+                  className="text-primary flex-shrink-0 mt-0.5"
+                  size={16}
+                />
+                <span className="text-gray-700 dark:text-gray-300 text-sm flex-1">
+                  {item}
+                </span>
               </li>
             ))}
           </ul>
