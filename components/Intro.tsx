@@ -38,8 +38,7 @@ export default function Intro() {
       <h1 className="intro-title">Mohit Thakkar</h1>
       <p className="intro-lead">
         <span className="intro-lead-inner">
-          Most of my work happens between a developer’s first question and demos, proofs of
-          concept, SDKs and the docs that go with them.
+          Most of my work happens between a developer’s first question, demos, SDKs and the docs that go with them.
         </span>
       </p>
       {/* <div className="intro-actions">

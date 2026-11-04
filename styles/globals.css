@@ -94,7 +94,7 @@ a:hover { color: #262626; }
 }
 .intro-lead-inner {
   color: rgb(32, 30, 29); font-family: Archivo, system-ui, sans-serif;
-  font-size: 20px; letter-spacing: -0.26px; text-align: start;
+  font-size: 19px; letter-spacing: -0.26px; text-align: start;
   /* background-color: rgb(243, 242, 242); */
 }
 .intro-sub {
